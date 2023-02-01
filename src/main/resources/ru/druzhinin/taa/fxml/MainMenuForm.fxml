@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16"
+            xmlns:fx="http://javafx.com/fxml/1" type="AnchorPane">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInputDataButton" prefHeight="40.0" prefWidth="200.0" text="Внести данные" translateX="200.0" translateY="100.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onLoadExcelDataButton" prefHeight="40.0" prefWidth="250.0" text="Внести данные из excel-шаблона" translateX="175.0" translateY="120.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onTrendAnalysisButton" prefHeight="40.0" prefWidth="200.0" text="Анализ трендов" translateX="200.0" translateY="140.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="90.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onLogButton" prefHeight="40.0" prefWidth="200.0" text="Просмотр журнала" translateX="200.0" translateY="160.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+         </children></VBox>
+   </children>
+</fx:root>

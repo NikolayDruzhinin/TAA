@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root prefHeight="600.0" prefWidth="800.0" type="AnchorPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="115.0" layoutY="10.0" prefHeight="34.0" prefWidth="537.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="43.0" prefWidth="538.0" text="Данные о препарате / параметре">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </VBox>
+      <HBox layoutX="70.0" layoutY="54.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="646.0">
+         <children>
+            <ComboBox fx:id="productNameBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="1. Наименование препарата" translateX="20.0" />
+            <RadioButton fx:id="newProductNameRadioButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="18.0" prefWidth="97.0" text="Нет в списке" translateX="40.0" translateY="5.0" />
+            <TextField fx:id="newProductTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="1. Наименование препарата" translateX="55.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="90.0" prefHeight="34.0" prefWidth="646.0">
+         <children>
+            <ComboBox fx:id="productBatchBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="2. Серия" translateX="20.0" />
+            <RadioButton fx:id="newProductBatchRadioButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="18.0" prefWidth="97.0" text="Нет в списке" translateX="40.0" translateY="5.0" />
+            <TextField fx:id="newProductBatchTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="2. Серия" translateX="55.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="126.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="646.0">
+         <children>
+            <ComboBox fx:id="releaseFormBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="3. Форма выпуска" translateX="20.0" />
+            <RadioButton fx:id="newReleaseFormRadioButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="18.0" prefWidth="97.0" text="Нет в списке" translateX="40.0" translateY="5.0" />
+            <TextField fx:id="newReleaseFormTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="3. Форма выпуска" translateX="55.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="162.0" prefHeight="34.0" prefWidth="646.0">
+         <children>
+            <TextField fx:id="batchSizeTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="4. Объем серии" translateX="20.0" />
+            <DatePicker fx:id="productionDate" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="5. Дата производства" translateX="152.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="198.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="646.0">
+         <children>
+            <ComboBox fx:id="unitMeasurementBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="6. Ед. измерения" translateX="20.0" />
+            <RadioButton fx:id="newProductMeasureRadioButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="18.0" prefWidth="97.0" text="Нет в списке" translateX="40.0" translateY="5.0" />
+            <TextField fx:id="newProductMeasuretextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="6. Ед.измерения" translateX="55.0" />
+         </children></HBox>
+      <HBox layoutX="70.0" layoutY="234.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="646.0">
+         <children>
+            <ComboBox fx:id="parameterNameBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="7. Наименование параметра" translateX="20.0" />
+            <RadioButton fx:id="newParamNameRadioButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="18.0" prefWidth="97.0" text="Нет в списке" translateX="40.0" translateY="5.0" />
+            <TextField fx:id="newParameterTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="7. Наименование параметра" translateX="55.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="270.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="646.0">
+         <children>
+            <ComboBox fx:id="boxParameterUnits" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="8. Ед. измерения" translateX="20.0" />
+            <RadioButton fx:id="newParamMeasureRadioButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="18.0" prefWidth="97.0" text="Нет в списке" translateX="40.0" translateY="5.0" />
+            <TextField fx:id="newParamMeasureTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="8. Ед.измерения" translateX="55.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="306.0" prefHeight="34.0" prefWidth="646.0">
+         <children>
+            <TextField fx:id="parameterValue" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="230.0" promptText="9. Значение" translateX="20.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="352.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="646.0">
+         <children>
+            <Button fx:id="inputData" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInputDataAction" prefHeight="26.0" prefWidth="140.0" text="Внести данные" translateX="309.0" />
+            <Button fx:id="goBack" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onGoBackAction" prefHeight="26.0" prefWidth="140.0" text="Назад" translateX="333.0" />
+         </children>
+      </HBox>
+      <VBox layoutX="115.0" layoutY="390.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="537.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutY="30.0" prefHeight="43.0" prefWidth="538.0" text="Последние внесенные данные">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutY="421.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="800.0">
+         <children>
+            <TableView fx:id="tableView" editable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="800.0" />
+         </children>
+      </VBox>
+   </children>
+</fx:root>
