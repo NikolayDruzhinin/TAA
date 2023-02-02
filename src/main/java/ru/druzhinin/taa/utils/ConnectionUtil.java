@@ -4,11 +4,11 @@ import lombok.Getter;
 
 public class ConnectionUtil {
     @Getter
-    private static final String URL = "jdbc:mysql://localhost:3306/polysan";
+    private static final String URL = "";
     @Getter
-    private static final String LOGIN = "root";
+    private static final String LOGIN = "";
     @Getter
-    private static final String PASSWORD = "Anna596942";
+    private static final String PASSWORD = "";
 
 
 }
